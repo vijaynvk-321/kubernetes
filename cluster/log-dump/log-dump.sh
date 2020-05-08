@@ -20,7 +20,7 @@
 # TODO(shyamjvs): This script should be moved to test/e2e which is where it ideally belongs.
 set -o errexit
 set -o nounset
-set -o pipefail
+set -o pipefail.
 
 readonly report_dir="${1:-_artifacts}"
 readonly gcs_artifacts_dir="${2:-}"
